@@ -10,9 +10,9 @@
 		97E9E9A3279F7BC000598543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E9A2279F7BC000598543 /* AppDelegate.swift */; };
 		97E9E9A5279F7BC000598543 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E9A4279F7BC000598543 /* SceneDelegate.swift */; };
 		97E9E9A7279F7BC000598543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E9A6279F7BC000598543 /* ViewController.swift */; };
-		97E9E9AA279F7BC000598543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E9E9A8279F7BC000598543 /* Main.storyboard */; };
 		97E9E9AC279F7BC200598543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E9E9AB279F7BC200598543 /* Assets.xcassets */; };
 		97E9E9AF279F7BC200598543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E9E9AD279F7BC200598543 /* LaunchScreen.storyboard */; };
+		97E9E9B7279F7C4400598543 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E9E9B6279F7C4400598543 /* Bluetooth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		97E9E9A2279F7BC000598543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97E9E9A4279F7BC000598543 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		97E9E9A6279F7BC000598543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97E9E9A9279F7BC000598543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97E9E9AB279F7BC200598543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E9E9AE279F7BC200598543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97E9E9B0279F7BC200598543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E9E9B6279F7C4400598543 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 				97E9E9A2279F7BC000598543 /* AppDelegate.swift */,
 				97E9E9A4279F7BC000598543 /* SceneDelegate.swift */,
 				97E9E9A6279F7BC000598543 /* ViewController.swift */,
-				97E9E9A8279F7BC000598543 /* Main.storyboard */,
+				97E9E9B6279F7C4400598543 /* Bluetooth.swift */,
 				97E9E9AB279F7BC200598543 /* Assets.xcassets */,
 				97E9E9AD279F7BC200598543 /* LaunchScreen.storyboard */,
 				97E9E9B0279F7BC200598543 /* Info.plist */,
@@ -126,7 +126,6 @@
 			files = (
 				97E9E9AF279F7BC200598543 /* LaunchScreen.storyboard in Resources */,
 				97E9E9AC279F7BC200598543 /* Assets.xcassets in Resources */,
-				97E9E9AA279F7BC000598543 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E9E9A7279F7BC000598543 /* ViewController.swift in Sources */,
+				97E9E9B7279F7C4400598543 /* Bluetooth.swift in Sources */,
 				97E9E9A3279F7BC000598543 /* AppDelegate.swift in Sources */,
 				97E9E9A5279F7BC000598543 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		97E9E9A8279F7BC000598543 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97E9E9A9279F7BC000598543 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		97E9E9AD279F7BC200598543 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
